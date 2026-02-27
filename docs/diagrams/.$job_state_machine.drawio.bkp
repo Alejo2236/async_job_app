@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 OPR/127.0.0.0" version="29.3.7">
+  <diagram name="Página-1" id="PESD0xl0i0L7wDoSEqZo">
+    <mxGraphModel dx="997" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-6" edge="1" parent="1" source="3bbcJj5WtSpOmYEaMyVG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3bbcJj5WtSpOmYEaMyVG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-19" connectable="0" parent="3bbcJj5WtSpOmYEaMyVG-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="If possible" vertex="1">
+          <mxGeometry relative="1" x="-0.096" y="-1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-1" parent="1" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;" value="Pending" vertex="1">
+          <mxGeometry height="60" width="60" x="90" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-9" edge="1" parent="1" source="3bbcJj5WtSpOmYEaMyVG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3bbcJj5WtSpOmYEaMyVG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-22" connectable="0" parent="3bbcJj5WtSpOmYEaMyVG-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Success" vertex="1">
+          <mxGeometry relative="1" x="-0.116" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-11" edge="1" parent="1" source="3bbcJj5WtSpOmYEaMyVG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="3bbcJj5WtSpOmYEaMyVG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-20" connectable="0" parent="3bbcJj5WtSpOmYEaMyVG-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Error&lt;div&gt;or&lt;/div&gt;&lt;div&gt;timeout&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1123" y="-1" as="geometry">
+            <mxPoint x="-18" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-3" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" value="Running" vertex="1">
+          <mxGeometry height="60" width="60" x="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-4" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;strokeWidth=5;perimeter=ellipsePerimeter;" value="Completed" vertex="1">
+          <mxGeometry height="60" width="60" x="410" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-12" edge="1" parent="1" source="3bbcJj5WtSpOmYEaMyVG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="3bbcJj5WtSpOmYEaMyVG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-21" connectable="0" parent="3bbcJj5WtSpOmYEaMyVG-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Retries&lt;div&gt;under&lt;/div&gt;&lt;div&gt;limit&lt;/div&gt;&lt;div&gt;(Retries +1)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0578" y="-2" as="geometry">
+            <mxPoint x="27" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-14" edge="1" parent="1" source="3bbcJj5WtSpOmYEaMyVG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3bbcJj5WtSpOmYEaMyVG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-23" connectable="0" parent="3bbcJj5WtSpOmYEaMyVG-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Retries over limit" vertex="1">
+          <mxGeometry relative="1" x="-0.096" as="geometry">
+            <mxPoint x="5" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-5" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" value="Failed" vertex="1">
+          <mxGeometry height="60" width="60" x="250" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3bbcJj5WtSpOmYEaMyVG-13" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;strokeWidth=5;perimeter=ellipsePerimeter;" value="Dead" vertex="1">
+          <mxGeometry height="60" width="60" x="410" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
