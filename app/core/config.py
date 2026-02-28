@@ -11,6 +11,10 @@ class Settings(BaseSettings):
 
     app_name: str = "Async Job System"
 
+    log_level: str = "INFO"
+    log_to_file: bool = True
+    log_file_path: str = "logs/app.log"
+
 
 @lru_cache
 def get_settings() -> Settings:
