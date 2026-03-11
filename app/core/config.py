@@ -15,6 +15,8 @@ class Settings(BaseSettings):
     log_to_file: bool = True
     log_file_path: str = "logs/app.log"
 
+    database_url: str
+
 
 @lru_cache
 def get_settings() -> Settings:
